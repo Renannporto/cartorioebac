@@ -149,6 +149,8 @@ int main()
         printf ("\t2 - Consultar nome\n");
         printf ("\t------------------\n");
         printf ("\t3 - Deletar nome\n");
+        printf ("\t------------------\n");
+        printf ("\t4 - Sair do sistrema\n");
         printf ("\t------------------\n\n\n");
         printf ("Opção:"); //Fim do menu
 
@@ -169,6 +171,11 @@ int main()
 
             case 3:
             deletar();
+            break;
+
+            case 4:
+            printf("Obrigado por acessar o sistema!\n\n");
+            return 0;
             break;
 
             default:
